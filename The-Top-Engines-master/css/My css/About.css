@@ -1,0 +1,59 @@
+div.about-us-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us-container .about-us-items {
+    position: relative;
+    top: 1.7rem;
+    color: rgba(0, 0, 0, 0.911);
+    background: rgba(226, 220, 220, 0.849);
+    box-shadow: 0 2px 4px 2px rgba(105, 156, 154, 0.63);
+    width: 30%;
+    height: 55vh;
+    font-size: 1.6rem;
+    padding: 1.3rem;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,.3);
+    border-radius: .5rem;
+}
+
+/* Our Team section */
+
+div.our-team-container {
+    position: relative;
+    top: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.our-team-container .team-member {
+    margin: 1rem;
+    background: var(--light-color-alt);
+    padding: 1.3rem;
+    padding-block: 2.9rem;
+    width: 300px;
+    box-shadow: 0 2px 3px 4px rgba(255, 255, 255, 0.322);
+}
+
+.our-team-container .team-member h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.our-team-container .team-member p.team-member-title {
+    text-align: center;
+    margin-bottom: 1.3rem;
+    margin-top: .8rem;
+    font-size: var(--font-size-md);
+}
+
+.our-team-container .team-member p.team-member-desc {
+    text-align: center;
+    margin-top: .5rem;
+    line-height: 1.7rem;
+    font-size: var(--font-size-xsm);
+    font-weight: bold;
+}

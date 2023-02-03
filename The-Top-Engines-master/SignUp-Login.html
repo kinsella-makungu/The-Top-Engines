@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/My css/cars.css"> 
+    <link rel="stylesheet" href="css/My css/login.css">
+    <link rel="icon" href="Pics/icon-2.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body class="login-background">
+<!--Header-->
+<header>
+    <!--Navigation bar-->
+        <nav>
+            <div class="navbar">
+                <span class="topEngine-logo"><img src="Pics/icon-2.png" alt="">
+                    <h3 class="topEngine-title">The Top-Engines</h3>
+                </span>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Latest.html">Latest</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Categories.html">Categories</a></li>
+                    <li><a href="index.html#Enquiry">Enquiry</a></li>
+                </ul>
+
+                <ul class="list-right">
+                    <li><button id="btn">Sign Up</button></li>
+                    <li><button id="btn">Login</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="form-background">
+            <span class="form-btn">
+                <button id="login-btn" >Login</button>
+                <button id="sign-up-btn">Sign Up</button>
+            </span>
+
+                <!-- Form registration section -->
+            <div class="registration-section">
+
+                <!-- Login section -->
+            <form class="login-section">
+                <p id="error-msg"></p>
+                <input type="email" id="email-input" class="inputs" placeholder="Email">
+                <br>
+                <input type="password" class="inputs" id="pwd" placeholder="Password">
+                <br>
+                <input type="checkbox" id="check">
+                <label for="checkbox" class="checkbox">Remember me</label>
+                <br>
+
+                <input type="submit" id="submit" value="Login" class="login">
+            </form>
+
+            <!-- Sign up section -->
+                <form action="" class="sign-up-section">
+                    <input type="text" name="" class="inputs" id="fname" placeholder="Username">
+                    <input type="number" name="" class="inputs" id="age" placeholder="Age">
+                    <input type="email" name="" class="inputs" id="email-inpt" placeholder="Email">
+                    <input type="password" name="" class="inputs" id="pwd-2" placeholder="Password">
+                    <input type="password" class="inputs" id="confm-pwd" placeholder="Confirm Password">
+                    <br>
+                    <p id="err-msg"></p>
+
+                <input type="submit" value="Sign Up" class="sign-up">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/login.js"></script>
+    </body>
+    </html>
